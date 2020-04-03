@@ -28,12 +28,7 @@ while (counts!=200):
     print(len(new_links))
 
     cd = os.getcwd()
-
-    a = ['1 7']
-    b = ['104 96 50']
-    c = ['333333336 142857144']
-    d = ['6 7 8']
-    e = ['6']
+    a, b, c, d, e = [''], [''], [''], [''], ['']
 
     for code_link in new_links:
     
